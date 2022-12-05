@@ -9,3 +9,6 @@ body{
     
 
 }
+.container div:nth-child(even){
+    color: light brown;
+}
