@@ -3,8 +3,6 @@ body{
 }
 .container{
    font-size:0; 
-   padding-left: 30vw;
-   padding-top: 20vh;
 }
 .container div{
     display: inline-block;
