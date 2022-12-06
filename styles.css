@@ -5,7 +5,7 @@ body{
 #board{
     position:absolute;
     display:block;
-    height: 416px;
+    height: 417px;
     width: 417px;
     margin: 25vw;
     font-size: 0;
