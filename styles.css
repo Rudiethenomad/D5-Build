@@ -58,6 +58,6 @@ body{
 
   }
  div :hover{
-    background-color: red;
+    background-color: red !important;
  }
  
