@@ -1,14 +1,27 @@
 body{
     margin:0;
+ 
 }
-.container{
-   font-size:0; 
-}
-.container div{
-    display: inline-block;
-    
+#board{
+    display:block;
+    height: 500px;
+    width: 500px;
+    margin: 25vw;
+
+
 
 }
-.container div:nth-child(even){
-    color: light brown;
-}
+.container {
+    display:inline-block;
+    /*margin-left: 40rem;
+    margin-right: 40rem;
+    margin-top: 15rem;
+    height: 100px;*/
+    font-size: 0;
+  }
+  .container div{
+    width: 70px;
+    height: 60px;
+    border: 1px solid black;
+  
+  }
