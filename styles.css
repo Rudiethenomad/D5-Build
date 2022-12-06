@@ -3,25 +3,35 @@ body{
  
 }
 #board{
+    position:absolute;
     display:block;
     height: 500px;
     width: 500px;
     margin: 25vw;
+    font-size: 0;
+    border: 1px solid black;
+ 
 
 
 
 }
 .container {
-    display:inline-block;
-    /*margin-left: 40rem;
-    margin-right: 40rem;
-    margin-top: 15rem;
-    height: 100px;*/
+    display:block;
+    height: 400px;
+    width: 400px;
+    
     font-size: 0;
   }
-  .container div{
-    width: 70px;
+  .row{
+    display:block;
+    width: 400px;
     height: 60px;
     border: 1px solid black;
   
+  }
+  .row div{
+    position:relative;
+    display: inline-block;
+    height: 60px;
+    width:60px;
   }
