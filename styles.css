@@ -57,7 +57,20 @@ body{
     left: -20px;
 
   }
+  .row:last-of-type div span:nth-child(1){
+    bottom: -20px;
+    left: 20px;
+  }
  div :hover{
     background-color: red !important;
  }
+ .row:first-of-type div:first-of-type span:nth-child(2){
+  top: 20px;
+  left: -20px;
+ }
+ .row:first-of-type div:last-of-type span:nth-child(2){
+  top: 20px;
+  left: 60px;
+ }
+
  
