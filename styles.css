@@ -73,4 +73,13 @@ body{
   left: 60px;
  }
 
+
+ .row:last-of-type div:first-of-type span:nth-child(2){
+  top: 20px;
+  left: -20px;
+ }
+ .row:last-of-type div:last-of-type span:nth-child(2){
+  top: 20px;
+  left: 60px;
+ }
  
