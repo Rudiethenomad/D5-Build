@@ -2,14 +2,20 @@ body{
     margin:0;
  
 }
+h1{
+  margin-left: 42vw;
+  margin-top: 15vh;
+}
 #board{
     position:absolute;
     display:block;
     height: 417px;
     width: 417px;
-    margin: 10vw;
+    margin-left: 35vw;
+    margin-top: 20vh;
     font-size: 0;
     border: 1px solid black;
+    
  
 
 
@@ -21,6 +27,7 @@ body{
     width: 417px;
     margin:0;
     font-size: 0;
+    
   }
   .row{
     display:block;
@@ -82,4 +89,11 @@ body{
   top: 20px;
   left: 60px;
  }
- 
+ .row:not(:first-of-type):not(:last-of-type) div:first-of-type span{
+  top: 20px;
+  left: -20px;
+ }
+ .row:not(:first-of-type):not(:last-of-type) div:last-of-type span{
+  top: 20px;
+  left: 60px;
+ }
